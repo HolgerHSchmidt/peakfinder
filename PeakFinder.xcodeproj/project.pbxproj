@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		8B91937A23B89F0C00533FA9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B91937923B89F0C00533FA9 /* main.cpp */; };
 		8B91938A23B8CE5800533FA9 /* TestPeakFinder1DRecursive.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8B91938923B8CE5800533FA9 /* TestPeakFinder1DRecursive.mm */; };
+		8B91939123B93F4C00533FA9 /* TestPeakFinder1DIterative.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8B91939023B93F4C00533FA9 /* TestPeakFinder1DIterative.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,6 +31,8 @@
 		8B91938723B8CE5800533FA9 /* TestPeakFinder1D.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestPeakFinder1D.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B91938923B8CE5800533FA9 /* TestPeakFinder1DRecursive.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = TestPeakFinder1DRecursive.mm; sourceTree = "<group>"; };
 		8B91938B23B8CE5800533FA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B91938F23B93EA200533FA9 /* PeakFinder1DIterative.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PeakFinder1DIterative.h; sourceTree = "<group>"; };
+		8B91939023B93F4C00533FA9 /* TestPeakFinder1DIterative.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = TestPeakFinder1DIterative.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +76,7 @@
 			children = (
 				8B91937923B89F0C00533FA9 /* main.cpp */,
 				8B91938123B89F6D00533FA9 /* PeakFinder1DRecursive.hpp */,
+				8B91938F23B93EA200533FA9 /* PeakFinder1DIterative.h */,
 			);
 			path = PeakFinder;
 			sourceTree = "<group>";
@@ -82,6 +86,7 @@
 			children = (
 				8B91938923B8CE5800533FA9 /* TestPeakFinder1DRecursive.mm */,
 				8B91938B23B8CE5800533FA9 /* Info.plist */,
+				8B91939023B93F4C00533FA9 /* TestPeakFinder1DIterative.mm */,
 			);
 			path = TestPeakFinder1D;
 			sourceTree = "<group>";
@@ -183,6 +188,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B91938A23B8CE5800533FA9 /* TestPeakFinder1DRecursive.mm in Sources */,
+				8B91939123B93F4C00533FA9 /* TestPeakFinder1DIterative.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
