@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8B91937A23B89F0C00533FA9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B91937923B89F0C00533FA9 /* main.cpp */; };
+		8B91938A23B8CE5800533FA9 /* TestPeakFinder1D.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8B91938923B8CE5800533FA9 /* TestPeakFinder1D.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,10 +26,21 @@
 /* Begin PBXFileReference section */
 		8B91937623B89F0C00533FA9 /* PeakFinder */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PeakFinder; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B91937923B89F0C00533FA9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8B91938123B89F6D00533FA9 /* PeakFinder1D.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PeakFinder1D.hpp; sourceTree = "<group>"; };
+		8B91938723B8CE5800533FA9 /* TestPeakFinder1D.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestPeakFinder1D.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B91938923B8CE5800533FA9 /* TestPeakFinder1D.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = TestPeakFinder1D.mm; sourceTree = "<group>"; };
+		8B91938B23B8CE5800533FA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		8B91937323B89F0C00533FA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B91938423B8CE5800533FA9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,6 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				8B91937823B89F0C00533FA9 /* PeakFinder */,
+				8B91938823B8CE5800533FA9 /* TestPeakFinder1D */,
 				8B91937723B89F0C00533FA9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				8B91937623B89F0C00533FA9 /* PeakFinder */,
+				8B91938723B8CE5800533FA9 /* TestPeakFinder1D.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,8 +72,18 @@
 			isa = PBXGroup;
 			children = (
 				8B91937923B89F0C00533FA9 /* main.cpp */,
+				8B91938123B89F6D00533FA9 /* PeakFinder1D.hpp */,
 			);
 			path = PeakFinder;
+			sourceTree = "<group>";
+		};
+		8B91938823B8CE5800533FA9 /* TestPeakFinder1D */ = {
+			isa = PBXGroup;
+			children = (
+				8B91938923B8CE5800533FA9 /* TestPeakFinder1D.mm */,
+				8B91938B23B8CE5800533FA9 /* Info.plist */,
+			);
+			path = TestPeakFinder1D;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -82,6 +106,23 @@
 			productReference = 8B91937623B89F0C00533FA9 /* PeakFinder */;
 			productType = "com.apple.product-type.tool";
 		};
+		8B91938623B8CE5800533FA9 /* TestPeakFinder1D */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B91938C23B8CE5800533FA9 /* Build configuration list for PBXNativeTarget "TestPeakFinder1D" */;
+			buildPhases = (
+				8B91938323B8CE5800533FA9 /* Sources */,
+				8B91938423B8CE5800533FA9 /* Frameworks */,
+				8B91938523B8CE5800533FA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestPeakFinder1D;
+			productName = TestPeakFinder1D;
+			productReference = 8B91938723B8CE5800533FA9 /* TestPeakFinder1D.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -92,6 +133,9 @@
 				ORGANIZATIONNAME = "Holger Schmidt";
 				TargetAttributes = {
 					8B91937523B89F0C00533FA9 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					8B91938623B8CE5800533FA9 = {
 						CreatedOnToolsVersion = 11.3;
 					};
 				};
@@ -110,9 +154,20 @@
 			projectRoot = "";
 			targets = (
 				8B91937523B89F0C00533FA9 /* PeakFinder */,
+				8B91938623B8CE5800533FA9 /* TestPeakFinder1D */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B91938523B8CE5800533FA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8B91937223B89F0C00533FA9 /* Sources */ = {
@@ -120,6 +175,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B91937A23B89F0C00533FA9 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B91938323B8CE5800533FA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B91938A23B8CE5800533FA9 /* TestPeakFinder1D.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +318,40 @@
 			};
 			name = Release;
 		};
+		8B91938D23B8CE5800533FA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 829M9HM784;
+				INFOPLIST_FILE = TestPeakFinder1D/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = holgerhschmidt.de.TestPeakFinder1D;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8B91938E23B8CE5800533FA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 829M9HM784;
+				INFOPLIST_FILE = TestPeakFinder1D/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = holgerhschmidt.de.TestPeakFinder1D;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -272,6 +369,15 @@
 			buildConfigurations = (
 				8B91937E23B89F0C00533FA9 /* Debug */,
 				8B91937F23B89F0C00533FA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B91938C23B8CE5800533FA9 /* Build configuration list for PBXNativeTarget "TestPeakFinder1D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B91938D23B8CE5800533FA9 /* Debug */,
+				8B91938E23B8CE5800533FA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
