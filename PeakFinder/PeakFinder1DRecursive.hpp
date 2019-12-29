@@ -37,9 +37,11 @@ IterT FindAPeakRecursive(IterT it, IterT end) {
     auto next = middle;
     ++next;
     if (*middle < *next)
-        return FindAPeakRecursive(middle, end);
-    if (*next < *middle)
-        return FindAPeakRecursive(it, next);
+        return FindAPeakRecursive(next, end);
+    auto prev = middle;
+    std::advance(prev, -1);
+    if (*middle < *prev)
+        return FindAPeakRecursive(it, prev);
     return middle;
 }
 
