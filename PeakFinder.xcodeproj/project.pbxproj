@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8B91937A23B89F0C00533FA9 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8B91937923B89F0C00533FA9 /* main.cpp */; };
-		8B91938A23B8CE5800533FA9 /* TestPeakFinder1D.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8B91938923B8CE5800533FA9 /* TestPeakFinder1D.mm */; };
+		8B91938A23B8CE5800533FA9 /* TestPeakFinder1DRecursive.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8B91938923B8CE5800533FA9 /* TestPeakFinder1DRecursive.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,9 +26,9 @@
 /* Begin PBXFileReference section */
 		8B91937623B89F0C00533FA9 /* PeakFinder */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PeakFinder; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B91937923B89F0C00533FA9 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		8B91938123B89F6D00533FA9 /* PeakFinder1D.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PeakFinder1D.hpp; sourceTree = "<group>"; };
+		8B91938123B89F6D00533FA9 /* PeakFinder1DRecursive.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PeakFinder1DRecursive.hpp; sourceTree = "<group>"; };
 		8B91938723B8CE5800533FA9 /* TestPeakFinder1D.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestPeakFinder1D.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8B91938923B8CE5800533FA9 /* TestPeakFinder1D.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = TestPeakFinder1D.mm; sourceTree = "<group>"; };
+		8B91938923B8CE5800533FA9 /* TestPeakFinder1DRecursive.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = TestPeakFinder1DRecursive.mm; sourceTree = "<group>"; };
 		8B91938B23B8CE5800533FA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -72,7 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				8B91937923B89F0C00533FA9 /* main.cpp */,
-				8B91938123B89F6D00533FA9 /* PeakFinder1D.hpp */,
+				8B91938123B89F6D00533FA9 /* PeakFinder1DRecursive.hpp */,
 			);
 			path = PeakFinder;
 			sourceTree = "<group>";
@@ -80,7 +80,7 @@
 		8B91938823B8CE5800533FA9 /* TestPeakFinder1D */ = {
 			isa = PBXGroup;
 			children = (
-				8B91938923B8CE5800533FA9 /* TestPeakFinder1D.mm */,
+				8B91938923B8CE5800533FA9 /* TestPeakFinder1DRecursive.mm */,
 				8B91938B23B8CE5800533FA9 /* Info.plist */,
 			);
 			path = TestPeakFinder1D;
@@ -182,7 +182,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B91938A23B8CE5800533FA9 /* TestPeakFinder1D.mm in Sources */,
+				8B91938A23B8CE5800533FA9 /* TestPeakFinder1DRecursive.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

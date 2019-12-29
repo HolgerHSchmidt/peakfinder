@@ -18,7 +18,7 @@
 #include <algorithm>
 
 template <typename IterT>
-IterT FindAPeak(IterT it, IterT end) {
+IterT FindAPeakRecursive(IterT it, IterT end) {
     auto distance = std::distance(it, end);
     if (distance == 0)
         return end;
@@ -36,10 +36,10 @@ IterT FindAPeak(IterT it, IterT end) {
     std::advance(middle, middleIndex);
     auto next = middle;
     ++next;
-    if (*middle >= *next)
-        return FindAPeak(it, next);
-    if (*next >= *middle)
-        return FindAPeak(middle, end);
+    if (*middle < *next)
+        return FindAPeakRecursive(middle, end);
+    if (*next < *middle)
+        return FindAPeakRecursive(it, next);
     return middle;
 }
 
