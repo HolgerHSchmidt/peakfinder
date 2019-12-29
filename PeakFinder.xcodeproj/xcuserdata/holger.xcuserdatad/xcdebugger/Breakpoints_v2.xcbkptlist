@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "775F00B2-566E-4D63-BE3D-818EC434B625"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EF41D65D-82FB-475E-9E23-F47A55B463E0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "PeakFinder/PeakFinder1DRecursive.hpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "FindAPeakRecursive(it, end)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "EF41D65D-82FB-475E-9E23-F47A55B463E0 - fb929b553d92ddc4"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "int const* FindAPeakRecursive&lt;int const*&gt;(int const*, int const*)"
+                  moduleName = "TestPeakFinder1D"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/holger/Documents/PeakFinder/PeakFinder/PeakFinder1DRecursive.hpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "321">
+               </Location>
+               <Location
+                  uuid = "EF41D65D-82FB-475E-9E23-F47A55B463E0 - d101ffee41311c2"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "int* FindAPeakRecursive&lt;int*&gt;(int*, int*)"
+                  moduleName = "TestPeakFinder1D"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/holger/Documents/PeakFinder/PeakFinder/PeakFinder1DRecursive.hpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "321">
+               </Location>
+               <Location
+                  uuid = "EF41D65D-82FB-475E-9E23-F47A55B463E0 - bce71ac08b8d1420"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "std::__1::__wrap_iter&lt;int const*&gt; FindAPeakRecursive&lt;std::__1::__wrap_iter&lt;int const*&gt; &gt;(std::__1::__wrap_iter&lt;int const*&gt;, std::__1::__wrap_iter&lt;int const*&gt;)"
+                  moduleName = "TestPeakFinder1D"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/holger/Documents/PeakFinder/PeakFinder/PeakFinder1DRecursive.hpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "445">
+               </Location>
+               <Location
+                  uuid = "EF41D65D-82FB-475E-9E23-F47A55B463E0 - bb510101274b7ae2"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "std::__1::__list_const_iterator&lt;int, void*&gt; FindAPeakRecursive&lt;std::__1::__list_const_iterator&lt;int, void*&gt; &gt;(std::__1::__list_const_iterator&lt;int, void*&gt;, std::__1::__list_const_iterator&lt;int, void*&gt;)"
+                  moduleName = "TestPeakFinder1D"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/holger/Documents/PeakFinder/PeakFinder/PeakFinder1DRecursive.hpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "445">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
