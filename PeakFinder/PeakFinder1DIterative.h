@@ -32,12 +32,7 @@ IterT FindAPeakIterative(IterT it, IterT end) {
         if (*middle < *next)
             it = next;
         else {
-            auto prev = middle;
-            --prev;
-            if (*middle < *prev)
-                end = prev;
-            else
-                return middle;
+            end = next;
         }
     }
     
